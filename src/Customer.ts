@@ -1,11 +1,5 @@
 export default class Customer {
-    getlastName(): any {
-        throw new Error("Method not implemented.");
-    }
-    isAdult(): any {
-        throw new Error("Method not implemented.");
-    }
-    name: string ;
+    name: string;
     age: number;
     email: string;
     birthDate: Date;
@@ -17,22 +11,18 @@ export default class Customer {
         this.birthDate = birthDate;
         this.age = new Date().getFullYear() - birthDate.getFullYear();
         this.address = address;
-        
-        }
     }
 
     isAdult(): boolean {
         return this.age >= 18;
     }
+
     getFirstName(): string {
         return this.name.split(" ")[0];
     }
-    getlastName(): string {
-        return this.name.split( "")[this.name.split(" ").length -1];
-    }
-}
 
-function isAdult() {
-    throw new Error("Function not implemented.");
+    getlastName(): string {
+        return this.name.split(" ")[this.name.split(" ").length - 1];
+    }
 }
 

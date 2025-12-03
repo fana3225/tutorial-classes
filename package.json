@@ -12,7 +12,6 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "ts": "^0.2.2",
     "ts-node": "^10.9.2",
     "typescript": "^5.9.3"
   },
@@ -21,7 +20,7 @@
     "argparse": "^1.0.10",
     "array-find-index": "^1.0.2",
     "arrify": "^1.0.1",
-    "axios": "^0.18.1",
+    "axios": "^1.13.2",
     "balanced-match": "^1.0.2",
     "brace-expansion": "^1.1.12",
     "builtin-modules": "^1.1.1",
@@ -66,7 +65,7 @@
     "locate-path": "^2.0.0",
     "loud-rejection": "^1.6.0",
     "map-obj": "^2.0.0",
-    "meow": "^5.0.0",
+    "meow": "^14.0.0",
     "minimatch": "^3.1.2",
     "minimist": "^1.2.8",
     "minimist-options": "^3.0.2",
@@ -100,12 +99,12 @@
     "strip-indent": "^2.0.0",
     "supports-color": "^5.5.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
-    "trim-newlines": "^2.0.0",
+    "trim-newlines": "^5.0.0",
     "tslib": "^1.14.1",
     "tslint": "^5.20.1",
     "tsutils": "^2.29.0",
     "validate-npm-package-license": "^3.0.4",
     "wrappy": "^1.0.2",
-    "yargs-parser": "^10.1.0"
+    "yargs-parser": "^22.0.0"
   }
 }
