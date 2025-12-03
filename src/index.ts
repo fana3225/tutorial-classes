@@ -1,3 +1,4 @@
+
 import Customer from "./Customer"
 
 const Customer1 = new Customer("Ana", 33, "ana@email.com", new Date(1992, 11, 27));

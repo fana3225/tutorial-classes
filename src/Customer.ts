@@ -3,6 +3,7 @@ export default class Customer {
     age: number;
     email: string;
     birthDate: Date;
+    address?: string;
 
     constructor(name: string, age: number, email: string, birthDate: Date) {
         this.name = name;
