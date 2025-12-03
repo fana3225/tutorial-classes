@@ -17,4 +17,8 @@ export default class Customer {
     getFirstName(): string {
         return this.name.split(" ")[0];
     }
+    getlastName(): string {
+        return this.name.split( "")[this.name.split(" ").length -1];
+    }
 }
+
